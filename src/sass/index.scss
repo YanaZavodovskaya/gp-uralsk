@@ -1,2 +1,13 @@
-@import './common';
-@import './example';
+@import './base/common';
+@import './base/container';
+
+@import './layout/about';
+@import './layout/footer';
+@import './layout/header';
+@import './layout/layouts';
+// @import './layout/sidebar';
+
+@import './utils/mixins';
+@import './utils/placeholders';
+@import './utils/variables';
+@import './utils/visually-hidden';
