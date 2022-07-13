@@ -2,7 +2,7 @@
     border-bottom: 1 solid #cfcbcb;
 }
 
-.header__container {
+.header__container.container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -95,6 +95,7 @@
 @media screen and (min-width: 1200px) {
     .site-nav {
         display: block;
+        margin-left: auto;
     }
 }
 

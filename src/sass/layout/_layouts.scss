@@ -3,78 +3,8 @@
     padding-bottom: 30px;
 }
 
-@media screen and (min-width: 1200px) {
-    .sidebar__list-container {
-            position: absolute;
-            top: 0;
-            left: 15px;
-            width: 285px;
-            height: 100%;
-            background-color: white;
-            z-index: 1;
-        }
-    
-    
-        .sidebar__item {
-            display: block;
-            width: 235px;
-            padding: 0 0 11px 0;
-            border-bottom: 1px solid #cfcbcb;
-    
-            &:not(:last-child) {
-                margin-bottom: 10px;
-            }
-        }
-    
-        .sidebar__link {
-            color: var(--text-color-theme-light);
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 21px;
-    
-    
-    
-        }
-}
 
 
-
-
-
-
-.layout {
-    padding-left: 285px;    
-    border-bottom: 1px solid #cfcbcb;
-    padding-bottom: 30px;
-
-    &:not(:last-child) {
-        margin-bottom: 20px;
-    }
-
-    
-    
-}
-
-// вместо бокса будет картинка
-.box {
-    width: 160px;
-    height: 160px;
-    background-color: rgba(255, 0, 0, 0.5);
-    
-    display: block;
-}
-
-.box-1 {
-    background-color: rgba(60, 146, 180, 0.5);
-}
-
-.box-2 {
-    background-color: rgba(43, 129, 62, 0.5);
-}
-
-.box-3 {
-    background-color: rgba(194, 105, 197, 0.5);
-}
 
 .layout__card {
     display: flex;
@@ -127,10 +57,28 @@
     padding-left: 55px;
 }
 
+.box {
+    width: 160px;
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.5);
+
+    display: block;
+}
+
+.box-1 {
+    background-color: rgba(60, 146, 180, 0.5);
+}
+
+.box-2 {
+    background-color: rgba(43, 129, 62, 0.5);
+}
+
+.box-3 {
+    background-color: rgba(194, 105, 197, 0.5);
+}
+
 @media screen and (max-width: 767px) {
-    .sidebar__list-container {
-        display: none;
-    }
+    
 
     .layout {
         padding-left: 0;
