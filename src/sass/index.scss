@@ -1,11 +1,12 @@
 @import './base/common';
 @import './base/container';
 
-@import './layout/about';
+@import './layout/site-page-title';
 @import './layout/footer';
 @import './layout/header';
 @import './layout/layouts';
-// @import './layout/sidebar';
+@import './layout/sidebar';
+@import './layout/mobile-menu';
 
 @import './utils/mixins';
 @import './utils/placeholders';
