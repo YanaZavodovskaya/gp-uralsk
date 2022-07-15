@@ -1,13 +1,17 @@
 .site-page-title {
-    padding-top: 15px;
+    padding-top: 30px;
     padding-bottom: 30px;
     font-weight: 700;
         font-size: 20px;
         line-height: 36px;
+        
 }
 
 .site-page-title__title {
     margin-bottom: 15px;
+    display: block;
+        justify-content: center;
+        text-align: center;
 }
 
 .site-page {
@@ -22,4 +26,16 @@
         font-weight: 400;
         font-size: 10px;
         line-height: 16px;
+}
+
+@media screen and (min-width: 480px) {
+    .site-page-title__title {
+            display: block;
+            justify-content: flex-start;
+            text-align: start;
+        }
+}
+
+@media screen and (min-width: 1200px) {
+    
 }

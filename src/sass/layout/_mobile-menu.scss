@@ -3,16 +3,23 @@
     top: 0;
     right: 0;
     transform: translateX(100%);
-    width: 250px;
+    width: 235px;
     min-height: 100vh;
-    padding-top: 50px;
-    background-color: #7c7c7c;
+    padding-top: 49px;
+    // background-color: #ffffff;
+    background-image: linear-gradient(to bottom,
+                #FFF5F6 20%,
+                var(--text-color-theme-dark) 20%);
+
+    
     z-index: 300;
     opacity: 0.3;
     visibility: hidden;
     pointer-events: none;
     transition: opacity 400ms var(--primary-cubic-bezier), visibility 400ms var(--primary-cubic-bezier), transform 500ms var(--primary-cubic-bezier);
+
 }
+
 
 .mobile-menu.is-open {
     opacity: 1;
@@ -61,11 +68,7 @@
     &:focus {
         color: #6cbbe9;
     }
-
-
 }
-
-
 
 .close__btn {
     position: absolute;
@@ -93,7 +96,7 @@
 .close__btn--svg {
     width: 14px;
     height: 14px;
-    stroke: var(--text-color-theme-dark);
+    stroke: var(--text-color-theme-light);
     stroke-width: 4px;
 
 
@@ -107,7 +110,7 @@
 
 @media screen and (min-width: 768px) {
     .mobile-menu {
-        width: 60%;
+        width: 50%;
 
     }
 }
