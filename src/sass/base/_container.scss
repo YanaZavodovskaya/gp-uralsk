@@ -1,15 +1,4 @@
-// .container {
-//     width: 100%;
-//     height: 100%;
-//     margin-left: auto;
-//     margin-right: auto;
-//     padding-left: 20px;
-//     padding-right: 20px;
-
-//     // outline: 4px solid rgba(255, 0, 0, 0.26);
-// }
-
-.main-container {
+.container {
     width: 100%;
     height: 100%;
     margin-left: auto;
@@ -17,13 +6,13 @@
     padding-left: 15px;
     padding-right: 15px;
 
-    outline: 4px solid rgba(255, 0, 0, 0.26);
-
+    border: 2px solid rgba(255, 0, 0, 0.26);
 }
 
 
+
 @media screen and (min-width: 480px) {
-    .main-container {
+    .container {
         width: 480px;
     }
 }
@@ -31,42 +20,40 @@
 @media screen and (min-width: 768px) {
     .container {
         width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
     }
 
-        .main-container {
-            width: 100%;
-            height: 100%;
-            margin-left: auto;
-            margin-right: auto;
-            padding-left: 20px;
-            padding-right: 20px;
+        // .main-container {
+        //     width: 100%;
+        //     height: 100%;
+        //     margin-left: auto;
+        //     margin-right: auto;
+        //     padding-left: 20px;
+        //     padding-right: 20px;
     
-            // outline: 4px solid rgba(255, 0, 0, 0.26);
+        //     // outline: 4px solid rgba(255, 0, 0, 0.26);
     
-        }
+        // }
 }
 
-@media screen and (min-width: 1200px) {
-    .container {
-        width: 1200px;
-        margin-left: auto;
-            margin-right: auto;
-        padding-left: 15px;
-        padding-right: 15px;
-        outline: 4px solid rgba(255, 0, 0, 0.26);
-    }
+// @media screen and (min-width: 1200px) {
+//     .container {
+//         width: 1200px;
+//         margin-left: auto;
+//             margin-right: auto;
+//         padding-left: 15px;
+//         padding-right: 15px;
+//         outline: 4px solid rgba(255, 0, 0, 0.26);
+//     }
 
-        .main-container {
-            width: 915px;
-            height: 100%;
-            margin-left: 570px;
-            margin-right: calc(100% - 285px);
-            padding-left: 20px;
-            padding-right: 20px;
+//         .main-container {
+//             width: 915px;
+//             height: 100%;
+//             margin-left: 570px;
+//             margin-right: calc(100% - 285px);
+//             padding-left: 20px;
+//             padding-right: 20px;
     
-            // outline: 4px solid rgba(255, 0, 0, 0.26);
+//             // outline: 4px solid rgba(255, 0, 0, 0.26);
     
-        }
-}
+//         }
+// }

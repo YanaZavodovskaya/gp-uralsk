@@ -1,38 +1,36 @@
 .header {
     border-bottom: 1 solid #cfcbcb;
+    background-color: #FFF2D9;
 }
 
-.header__container.main-container {
+.header__container.container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     text-align: center;
     align-content: center;
+    position: relative;
 }
 
 .logo__link {
     display: flex;
     align-items: center;
     color: inherit;
-}
-
-.header__logo {
-    width: 40px;
-    height: 40px;
-    display: block;
-    margin-right: 15px;
-    fill: rgb(161, 160, 160);
-    
-}
-
-.site-name {
-    display: block;
     font-family: var(--secondary-font-family);
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
+    padding-top: 21px;
+    padding-bottom: 21px;
 }
 
+.header__logo {
+    width: 18px;
+    height: 18px;
+    display: block;
+    margin-right: 15px;
+    
+}
 
 
 @media screen and (max-width: 479px) {
@@ -47,81 +45,81 @@
     }
 }
 
-@media screen and (min-width: 768px) {
-    .site-nav {
-            display: none;
-        }
-}
+// @media screen and (min-width: 768px) {
+//     .site-nav {
+//             display: none;
+//         }
+// }
 
-@media screen and (min-width: 1200px) {
+// @media screen and (min-width: 1200px) {
 
 
-.header__logo {
-        width: 50px;
-        height: 50px;
-        display: block;
-        margin-right: 20px;
-        fill: rgb(161, 160, 160);
+// .header__logo {
+//         width: 50px;
+//         height: 50px;
+//         display: block;
+//         margin-right: 20px;
+//         fill: rgb(161, 160, 160);
 
-    }
+//     }
 
-    .site-nav {
-        display: block;
-        margin-left: auto;
-    }
+//     .site-nav {
+//         display: block;
+//         margin-left: auto;
+//     }
 
-        .site-name {
-            display: block;
-            font-family: var(--secondary-font-family);
-            font-weight: 700;
-            font-size: 18px;
-            line-height: 24px;
-        }
+//         .site-name {
+//             display: block;
+//             font-family: var(--secondary-font-family);
+//             font-weight: 700;
+//             font-size: 18px;
+//             line-height: 24px;
+//         }
     
-        .site-nav__list {
-            display: flex;
-        }
+//         .site-nav__list {
+//             display: flex;
+//         }
     
-        .site-nav__item {
+//         .site-nav__item {
     
-            &:not(:last-child) {
-                margin-right: 40px;
-            }
+//             &:not(:last-child) {
+//                 margin-right: 40px;
+//             }
     
     
     
-        }
+//         }
     
-        .site-nav__link {
-            position: relative;
-            display: block;
-            padding: 15px 0;
-            color: var(--text-color-theme-light);
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 21px;
+//         .site-nav__link {
+//             position: relative;
+//             display: block;
+//             padding: 15px 0;
+//             color: var(--text-color-theme-light);
+//             font-weight: 700;
+//             font-size: 16px;
+//             line-height: 21px;
     
-            &.site-nav__link--current {
-                color: #6cbbe9;
-            }
+//             &.site-nav__link--current {
+//                 color: #6cbbe9;
+//             }
     
-            &:hover,
-            &:focus {
-                color: #6cbbe9;
-            }
+//             &:hover,
+//             &:focus {
+//                 color: #6cbbe9;
+//             }
     
-            &.site-nav__link--current::after {
-                content: '';
-                position: absolute;
-                display: block;
-                left: 0;
-                bottom: 0;
-                width: 100%;
-                height: 3px;
-                border-radius: 2px;
-                background-color: #6cbbe9;
+//             &.site-nav__link--current::after {
+//                 content: '';
+//                 position: absolute;
+//                 display: block;
+//                 left: 0;
+//                 bottom: 0;
+//                 width: 100%;
+//                 height: 3px;
+//                 border-radius: 2px;
+//                 background-color: #6cbbe9;
     
-            }
-        }
-}
+//             }
+//         }
+// }
 
