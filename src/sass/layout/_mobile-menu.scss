@@ -6,12 +6,7 @@
     width: 235px;
     min-height: 100vh;
     padding-top: 49px;
-    // background-color: #ffffff;
-    background-image: linear-gradient(to bottom,
-                #FFF5F6 20%,
-                var(--text-color-theme-dark) 20%);
-
-    
+    background-color: #FFF2D9;
     z-index: 300;
     opacity: 0.3;
     visibility: hidden;
@@ -33,10 +28,11 @@
 
 .mobile-menu__list {
     width: 100%;
+    padding-top: 11px;
 }
 
 .mobile-menu__item {
-    // border-bottom: 1px solid #cfcbcb;
+    border-bottom: 1px solid #cfcbcb;
     
 
     &:nth-child(1) {
@@ -50,9 +46,9 @@
     text-decoration: none;    
     font-family: var(--primary-font-family);
     color: var(--text-color-theme-light);
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 21px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
     display: block;
     padding-left: 20px;
     padding-top: 11px;
