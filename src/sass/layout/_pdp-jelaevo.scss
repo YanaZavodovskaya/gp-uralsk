@@ -1,0 +1,66 @@
+.pdp-jelaevo {
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    
+}
+
+.pdp-jelaevo__wrapper {
+    display: flex;
+    
+    margin-bottom: 50px;
+
+}
+
+.pdp-jelaevo__picture {
+    margin-right: 15px;
+}
+
+.pdp-jelaevo__img {
+    width: 160px;
+    height: 160px;
+    border: 1px solid #C9C9C9;
+    border-radius: 4px;
+}
+
+// .pdp-jelaevo__list {
+//     display: block;
+//     border-top: 0.5 solid var(--text-color-secondary);
+// }
+
+.pdp-jelaevo__item {
+    display: flex;
+
+    &:not(:last-child) {
+        margin-bottom: 32px;
+    }
+}
+
+.pdp-jelaevo__picture-avatar {
+    margin-right: 20px;
+}
+
+.pdp-jelaevo__img-avatar {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #C9C9C9;
+    border-radius: 4px;
+}
+
+.pdp-jelaevo__desc-title {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.pdp-jelaevo__desc {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 18px;
+    background: rgba(217, 217, 217, 0.2);
+    border-radius: 4px;
+    padding: 0 5px 10px 10px;
+}
+
