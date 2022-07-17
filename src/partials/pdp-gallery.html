@@ -6,6 +6,13 @@
         <p class="pdp-gallery__name">Орталык</p>
         <picture class="pdp-gallery__picture">
           <source
+            srcset="
+              ./images/img/tablet-pdp-1@1x.jpg 1x,
+              ./images/img/tablet-pdp-1@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
             srcset="./images/img/pdp-1@1x.jpg 1x, ./images/img/pdp-1@2x.jpg 2x"
             media="(max-width: 767px)"
           />
@@ -17,10 +24,18 @@
             class="pdp-gallery__img"
           />
         </picture>
+        <p class="pdp-gallery__img-name">Орталык</p>
       </li>
       <li class="pdp-gallery__item">
         <p class="pdp-gallery__name">Жулдыз</p>
         <picture class="pdp-gallery__picture">
+          <source
+            srcset="
+              ./images/img/tablet-pdp-2@1x.jpg 1x,
+              ./images/img/tablet-pdp-2@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
           <source
             srcset="./images/img/pdp-2@1x.jpg 1x, ./images/img/pdp-2@2x.jpg 2x"
             media="(max-width: 767px)"
@@ -33,10 +48,18 @@
             class="pdp-gallery__img"
           />
         </picture>
+        <p class="pdp-gallery__img-name">Жулдыз</p>
       </li>
       <li class="pdp-gallery__item">
         <p class="pdp-gallery__name">Ески кала</p>
         <picture class="pdp-gallery__picture">
+          <source
+            srcset="
+              ./images/img/tablet-pdp-3@1x.jpg 1x,
+              ./images/img/tablet-pdp-3@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
           <source
             srcset="./images/img/pdp-3@1x.jpg 1x, ./images/img/pdp-3@2x.jpg 2x"
             media="(max-width: 767px)"
@@ -49,11 +72,19 @@
             class="pdp-gallery__img"
           />
         </picture>
+        <p class="pdp-gallery__img-name">Ески кала</p>
       </li>
       <li class="pdp-gallery__item">
         <p class="pdp-gallery__name">Желаево</p>
         <a href="/src/pdp-jelaevo.html">
           <picture class="pdp-gallery__picture">
+            <source
+              srcset="
+                ./images/img/tablet-pdp-4@1x.jpg 1x,
+                ./images/img/tablet-pdp-4@2x.jpg 2x
+              "
+              media="(min-width: 768px)"
+            />
             <source
               srcset="
                 ./images/img/pdp-4@1x.jpg 1x,
@@ -70,20 +101,23 @@
             />
           </picture>
         </a>
+        <p class="pdp-gallery__img-name">Желаево</p>
       </li>
     </ul>
-    <button type="button" class="read-more__btn read-more__btn-pdp btn">
-      <a href="/src/pdp-page.html" class="read-more__btn-link"
-        >Смотреть больше</a
-      ><svg width="6" height="8" class="icon-btn__svg">
-        <use href="/src/images/icons/icons.svg#icon-arrow-right-mini"></use>
-      </svg>
-    </button>
-    <button type="button" class="quiz__btn quiz__btn-pdp btn">
-      <a href="" class="quiz__btn-link">Пройти опрос</a
-      ><svg width="6" height="8" class="icon-btn__svg">
-        <use href="/src/images/icons/icons.svg#icon-arrow-right-mini"></use>
-      </svg>
-    </button>
+    <div class="pdp-gallery__btn-wrapper">
+      <button type="button" class="read-more__btn read-more__btn-pdp btn">
+        <a href="/src/pdp-page.html" class="read-more__btn-link"
+          >Смотреть больше</a
+        ><svg width="6" height="8" class="icon-btn__svg">
+          <use href="/src/images/icons/icons.svg#icon-arrow-right-mini"></use>
+        </svg>
+      </button>
+      <button type="button" class="quiz__btn quiz__btn-pdp btn">
+        <a href="" class="quiz__btn-link">Пройти опрос</a
+        ><svg width="6" height="8" class="icon-btn__svg">
+          <use href="/src/images/icons/icons.svg#icon-arrow-right-mini"></use>
+        </svg>
+      </button>
+    </div>
   </div>
 </section>

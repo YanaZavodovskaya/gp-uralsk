@@ -19,6 +19,7 @@
     font-size: 9px;
     line-height: 11px;
     margin-bottom: 25px;
+    color: var(--text-color-secondary);
 
     & a {
         color: var(--text-color-secondary);
@@ -38,11 +39,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: -10px;
 }
 
 .pdp-page__item {
     margin: 10px;
-    width: 138px;
     
 }
 
@@ -65,4 +66,33 @@
     line-height: 13px;
     text-align: center;
     margin-top: 6px;
+}
+
+@media screen and (min-width: 768px) {
+    .pdp-page__img {
+        width: 283px;
+        height: 283px;
+    }
+
+    .read-more__btn-pdp-page {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+    }
+
+    .pdp-page__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: -29px;
+    }
+
+    .pdp-page__item {
+        margin: 29px;
+
+    }
+
+    .pdp-page__img-name {
+        margin-top: 15px;
+    }
 }

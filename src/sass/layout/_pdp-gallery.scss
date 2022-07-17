@@ -21,17 +21,21 @@
 
 .pdp-gallery__item {
     margin: 10px;
-    border: 0.5px solid #C9C9C9;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
+    
     position: relative;
 
     transition: transform 250ms var(--primary-cubic-bezier);
 
     &:hover,
     &:focus {
-        transform: scale(1.1);
+        transform: scale(1.03);
     }
+}
+
+.pdp-gallery__img {
+    border: 0.5px solid #C9C9C9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
 }
 
 
@@ -75,4 +79,50 @@
 
 .quiz__btn-pdp {
     margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+    .pdp-gallery__name {
+        display: none;
+    }
+
+    .pdp-gallery__img {
+        width: 283px;
+        height: 283px;
+    }
+
+    .pdp-gallery__list {
+        margin: -29px;
+    }
+
+    .pdp-gallery__item {
+        margin: 29px;
+    }
+
+    .pdp-gallery__img-name {
+        display: block;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;        
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .pdp-gallery__btn-wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 60px;
+    }
+
+    .read-more__btn {
+        margin: 0;
+        &.read-more__btn-pdp {
+            margin-bottom: 0;
+        }
+    }
+
+        .quiz__btn-pdp {
+            margin: 0px;
+        }
 }

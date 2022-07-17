@@ -7,6 +7,13 @@
     <div class="hero__wrapper">
       <picture class="hero__picture">
         <source
+          srcset="
+            ./images/img/tablet-gp-1@1x.jpg 1x,
+            ./images/img/tablet-gp-1@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
           srcset="./images/img/gp-1@1x.jpg 1x, ./images/img/gp-1@2x.jpg 2x"
           media="(max-width: 767px)"
         />
@@ -18,18 +25,28 @@
           class="hero__img"
         />
       </picture>
-      <ul class="desc__list list">
-        <li class="desc__item">Наименование проекта</li>
-        <li class="desc__item">Разработчик</li>
-        <li class="desc__item">Год разработки</li>
-        <li class="desc__item">Номер и дата</li>
-        <li class="desc__item">Постановления</li>
-        <li class="desc__item">
-          <a href="" class="desc__item-link">Постановление</a>
-        </li>
-      </ul>
+      <div class="hero__desc-wrapper">
+        <ul class="desc__list list">
+          <li class="desc__item">Наименование проекта</li>
+          <li class="desc__item">Разработчик</li>
+          <li class="desc__item">Год разработки</li>
+          <li class="desc__item">Номер и дата</li>
+          <li class="desc__item">Постановления</li>
+          <li class="desc__item">
+            <a href="" class="desc__item-link">Постановление</a>
+          </li>
+        </ul>
+        <p class="hero__text hero__text--tablet">
+          Описание что такое генплан, из каких разделов состоит кем утверждён,
+          может ли корректироваться, как мотреть информацию. Lorem ipsum dolor
+          sit amet sectetur adipisicing elit. Dolores non assumenda dolore qui
+          aut luptate fuga cupiditate voluptatum porro Lorem velit atae nisi
+          riosam perspiciatis harum eum incidunt commodi impedit quam
+          voluptates?
+        </p>
+      </div>
     </div>
-    <p class="hero__text">
+    <p class="hero__text hero__text--mobile">
       Описание что такое генплан, из каких разделов состоит кем утверждён, может
       ли корректироваться, как мотреть информацию. Lorem ipsum dolor sit amet
       sectetur adipisicing elit. Dolores non assumenda dolore qui aut luptate

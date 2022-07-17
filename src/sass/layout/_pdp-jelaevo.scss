@@ -23,10 +23,9 @@
     border-radius: 4px;
 }
 
-// .pdp-jelaevo__list {
-//     display: block;
-//     border-top: 0.5 solid var(--text-color-secondary);
-// }
+.quiz__btn-pdp-jelaevo {
+    margin-top: 10px;
+}
 
 .pdp-jelaevo__item {
     display: flex;
@@ -62,5 +61,31 @@
     background: rgba(217, 217, 217, 0.2);
     border-radius: 4px;
     padding: 0 5px 10px 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .pdp-jelaevo__img {
+        width: 238px;
+        height: 238px;
+    }
+    .pdp-jelaevo__img-avatar {
+        width: 138px;
+        height: 138px;
+    }
+
+    .pdp-jelaevo__desc {
+        background: transparent;
+    }
+
+    .pdp-jelaevo__item {
+
+    &:not(:last-child) {
+        margin-bottom: 50px;
+    }
+}
+
+.quiz__btn-pdp-jelaevo {
+    margin-top: 90px;
+}
 }
 
