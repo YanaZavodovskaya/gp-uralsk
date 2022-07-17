@@ -146,3 +146,49 @@
         height: 283px;
     }
 }
+
+@media screen and (min-width: 1280px) {
+    
+
+.hero__title {
+    font-size: 38px;
+        line-height: 46px;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .hero__link {
+        font-size: 11px;
+        line-height: 13px;
+        margin-bottom: 25px;
+
+    }
+
+
+    .desc__item {
+        font-size: 12px;
+        line-height: 14px;
+
+        &:not(:last-child) {
+            margin-bottom: 8.5px;
+        }
+    }
+
+    .hero__text {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 18px;
+    }
+
+        .quiz__btn-link {
+            font-size: 12px;
+            line-height: 14px;
+        }
+    
+        .icon-btn__svg {
+            width: 8px;
+            height: 10px;
+        }
+    
+        
+}

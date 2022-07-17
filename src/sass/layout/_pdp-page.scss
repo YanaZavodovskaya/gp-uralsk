@@ -96,3 +96,33 @@
         margin-top: 15px;
     }
 }
+
+@media screen and (min-width: 1280px) {
+.pdp-page__title {
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .pdp-page__link {
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .pdp-page__desc {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+        .pdp-page__list {
+            margin: -29px;
+        }
+    
+        .pdp-page__item {
+            margin: 29px;
+    
+        }
+    
+        .pdp-page__img-name {
+            margin-top: 15px;
+        }
+}

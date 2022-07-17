@@ -46,10 +46,6 @@
     position: absolute;
     top: -15px;
     left: 5px;
-    // min-width: 50px;
-    // min-height: 50px;
-    // border-radius: 50%;
-    // background-color: rgba(203, 230, 254, 0.8);
     color: var(--primary-accent-color);
     display: flex;
     justify-content: center;
@@ -59,10 +55,29 @@
 
 }
 
-.read-more__btn {
-    &.read-more__btn-pdp {
-        margin-bottom: 10px;
+
+
+.read-more__btn-pdp {
+    min-width: 120px;
+    height: 35px;
+    background: var(--secondary-accent-color);
+    border-radius: 24px;
+    padding: 12px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    transition: background-color 250ms var(--primary-cubic-bezier);
+
+    &:hover,
+    &:focus {
+        background-color: var(--primary-accent-color);
     }
+
 }
 
 .pdp-gallery__btn-link {
@@ -109,20 +124,32 @@
     }
 
     .pdp-gallery__btn-wrapper {
-        display: flex;
-        justify-content: space-around;
+        display: block;
+        justify-content: center;
         align-items: center;
         margin-top: 60px;
     }
 
-    .read-more__btn {
-        margin: 0;
-        &.read-more__btn-pdp {
-            margin-bottom: 0;
-        }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .pdp-gallery__list {
+        margin: -15px;
+    }
+    
+    .pdp-gallery__item {
+        margin: 15px;
     }
 
-        .quiz__btn-pdp {
-            margin: 0px;
-        }
+    .pdp-gallery__title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .pdp-gallery__img-name {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
 }

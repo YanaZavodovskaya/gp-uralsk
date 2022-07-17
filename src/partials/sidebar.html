@@ -1,7 +1,9 @@
-<!-- <div class="sidebar">
+<aside class="sidebar" sidebar-menu>
   <ul class="sidebar__list list">
     <li class="sidebar__item">
-      <a href="" class="sidebar__link">Генеральный план</a>
+      <a href="" class="sidebar__link sidebar__link--current"
+        >Генеральный план</a
+      >
     </li>
     <li class="sidebar__item"><a href="" class="sidebar__link">ПДП</a></li>
     <li class="sidebar__item">
@@ -11,4 +13,10 @@
       <a href="" class="sidebar__link">Контакты</a>
     </li>
   </ul>
-</div> -->
+  <button type="button" class="close__btn btn" sidebar-menu-close>
+    <svg class="close__btn--svg" width="14px" height="14px">
+      <use href="../src/images/icons/icons.svg#icon-close"></use>
+    </svg>
+  </button>
+</aside>
+<button type="button" class="sidebar__open-btn" sidebar-menu-open>меню</button>

@@ -64,7 +64,7 @@
         
 }
 
-.read-more__btn {
+.read-more__btn-genplan-archive {
     min-width: 120px;
     height: 35px;
     background: var(--secondary-accent-color);
@@ -84,6 +84,8 @@
     &:focus {
         background-color: var(--primary-accent-color);
     }
+
+
 }
 
 .read-more__btn-link {
@@ -143,4 +145,40 @@
         text-align: start;
     }
 
+}
+
+@media screen and (min-width: 1280px) {
+    .genplan-archive__title {
+            font-size: 20px;
+            line-height: 24px;
+        }
+    
+    .genplan-archive__list {
+        margin: 0;
+    }
+
+    .genplan-archive__item {
+        margin: 0;
+        &:not(:last-child) {
+            margin-bottom: 50px;
+        }
+
+
+    }
+
+    .genplan-archive__desc {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .genplan-archive__desc-title {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+        .read-more__btn-link {
+            font-size: 12px;
+            line-height: 14px;
+    
+        }
 }
